@@ -1,7 +1,7 @@
 # PropShop Ecommerce Website With Django + React
 
 
-This project is from my Django + React collaboration wih Brad Traversy. ![DEMO](../master/static/images/proshop_django_demo.png)
+Build Full Functional Ecommerce Website in the most modern ways.
 
 
 # Features
@@ -18,6 +18,14 @@ This project is from my Django + React collaboration wih Brad Traversy. ![DEMO](
 * Checkout process (shipping, payment method, etc)
 * PayPal / credit card integration
 
+
+# Technologies
+* Vite
+* React
+* React Router (With its advanced Data Loader Features)
+* Redux
+* Django
+* Bootstrap
 
 # Download & Setup Instructions
 
