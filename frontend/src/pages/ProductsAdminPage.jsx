@@ -15,9 +15,9 @@ function ProductsAdminPage() {
 
   const [productId, setProductId] = useState(null);
 
-  const mappingProducts = fetcher?.data?.products || [];
-  console.log(`mappingProducts : ${mappingProducts}`);
-  console.log(mappingProducts);
+  const mappingProducts = fetcher?.data?.allProducts?.products || [];
+  // console.log(`mappingProducts : ${mappingProducts}`);
+  // console.log(mappingProducts);
   const [show, setShow] = useState(false);
   const [searchParams] = useSearchParams();
   const page = searchParams.get("page") || 1;
