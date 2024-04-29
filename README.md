@@ -4,8 +4,9 @@
 Build Full Functional Ecommerce Website in the most modern ways.
 
 
+https://github.com/AshrafAaref21/Django-React-Ecommerce/assets/82468597/4bfd533c-601b-4895-bef7-e4ded7a547a3
 
-https://github.com/AshrafAaref21/Django-React-Ecommerce/assets/82468597/9630e2c3-f46b-4e70-bb05-14bff3a412fe
+
 
 
 
