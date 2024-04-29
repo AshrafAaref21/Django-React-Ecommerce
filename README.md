@@ -30,7 +30,7 @@ Build Full Functional Ecommerce Website in the most modern ways.
 # Download & Setup Instructions
 
 * 1 - Clone project: git clone https://github.com/AshrafAaref21/E-Commerce.git
-* 2 - cd E-Commerce
+* 2 - cd "Django-React-Ecommerce"
 * 3 - Create virtual environment: virtualenv myenv
 * 4 - myenv\scripts\activate
 * 5 - pip install -r requirements.txt
