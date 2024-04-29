@@ -1,0 +1,62 @@
+/* App.css or any other CSS file */
+
+.user-container {
+  min-height: calc(100vh - 150px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.login-form-container {
+  min-width: 400px;
+  margin: auto auto;
+
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form-container input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* .login-form-container button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+} */
+
+.login-form-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.login-form-container button:hover {
+  opacity: 80%;
+}
+
+.login-form-container p {
+  margin-top: 10px;
+  color: red;
+  padding-left: 50px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}

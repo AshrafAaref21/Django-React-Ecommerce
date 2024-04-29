@@ -1,0 +1,136 @@
+:root {
+  font-size: 14px;
+}
+
+main {
+  min-height: 80vh;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+/* .rating span {
+  margin: 0.1rem;
+} */
+
+.user-container {
+  min-height: calc(100vh - 150px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.grid-profile {
+  display: flex;
+  /* grid-template-columns: minmax(40%, auto) 1fr; */
+  gap: 20px;
+  /* grid-template-rows: 0; */
+}
+
+/* App.css or any other CSS file */
+
+.update-form-container {
+  min-width: 400px;
+  height: 100%;
+  margin: 10px;
+
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.update-form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.update-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.update-form-container input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.update-form-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.update-form-container button:hover {
+  opacity: 80%;
+}
+
+.update-form-container p {
+  margin-top: 10px;
+  color: red;
+  padding-left: 50px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.orders-container {
+  min-width: calc(100% - 400px);
+  height: 100%;
+  margin: 10px;
+
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.orders-container h2 {
+  margin-bottom: 20px;
+
+  text-align: center;
+}
+
+.app-overflow {
+  overflow: scroll;
+  max-height: 40vh;
+}
+
+.app-overflow::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h4 {
+  color: #fff;
+}
+
+.carousel img {
+  display: block;
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
